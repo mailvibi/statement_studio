@@ -1,0 +1,66 @@
+{
+    "SuperMarket" : [
+        "Lidl sagt Danke",
+        "Tegut Filiale",
+        "Rossmann",
+        "IIFOODS.DE"
+    ],
+
+    "Travel" : [
+        "Booking.com",
+        "ADAC Geschaeftsstelle"
+    ],
+
+    "Hotel & Food" : [
+        "Autobahnrasthaus",
+        "Rasthaus",
+        "Rasthof",
+        "Lieferando.de",
+		"KFC"
+    ],
+
+    "Shopping" : [
+        "Siemes Schuhcenter",
+        "KiK Fil",
+        "Kaufhaus Braun",
+        "toom"
+    ],
+
+	"Amazon" : [
+        "AMZN Mktp DE",
+		"AMAZON.DE"
+	],
+
+    "Car" : [
+        "Shell",
+        "Reifen Simon",
+        "PARKGEBUEHREN",
+        "Q PARK",
+		"Parkhaus"
+    ],
+
+    "MonthlyDeductions" : [
+        "AMAZON PRIM",
+        "Lebara Germany"
+    ],
+
+	"TV Tax" : [
+		"Rundfunk ARD, ZDF, DRadio"
+	],
+
+    "Utilities" : [
+        "Stadtwerke Langen Gesellschaft"
+    ],
+
+    "Medical" : [
+        "Dr. med. Nina Ewerdwal",
+		"MUENCHSCHE-APOTHEKE"
+    ],
+
+    "Other" : [
+        "CONNFAIR",
+        "HAUS DER 1000 UHREN",
+        "Greifvogel  und Eulen",
+        "Eble Uhren-Park"
+    ]
+}

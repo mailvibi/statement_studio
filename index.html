@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statement Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div class="eyebrow"><span class="eyebrow-mark"></span> Private by design</div>
+        <h1>Statement<br /><em>Studio</em></h1>
+        <p class="intro">Turn bank statement exports into a clear, categorized view of where your money goes.</p>
+      </header>
+
+      <section class="workspace" aria-label="Statement processing workspace">
+        <div class="setup-panel">
+          <div class="panel-heading">
+            <div><span class="step">01</span><h2>Bring in your files</h2></div>
+            <p>Everything runs locally in your browser.</p>
+          </div>
+
+          <label class="dropzone" for="statements">
+            <input id="statements" type="file" accept=".csv,text/csv" multiple />
+            <span class="drop-icon">+</span>
+            <strong id="statement-label">Drop statement CSVs here</strong>
+            <small>or choose one or more files</small>
+          </label>
+
+          <div class="mapping-row">
+            <div class="mapping-copy">
+              <span class="file-mark">JSON</span>
+              <div><strong>Category mapping</strong><small id="mapping-label">Default mapping included</small></div>
+            </div>
+            <label class="text-button" for="mapping">Replace <input id="mapping" type="file" accept=".json,application/json" /></label>
+          </div>
+
+          <button id="run" class="run-button" type="button" disabled><span>Run analysis</span><span class="arrow">&#8594;</span></button>
+          <p class="privacy-note"><span>&#9679;</span> Your statements never leave this device.</p>
+        </div>
+
+        <div class="results-panel">
+          <div class="panel-heading result-heading">
+            <div><span class="step">02</span><h2>Your overview</h2></div>
+            <span id="status-pill" class="status-pill">Waiting for files</span>
+          </div>
+          <div class="metrics" aria-live="polite">
+            <div class="metric"><span>Files read</span><strong id="files-read">--</strong></div>
+            <div class="metric"><span>Outgoing entries</span><strong id="outgoing-count">--</strong></div>
+            <div class="metric total"><span>Total outgoing</span><strong id="grand-total">--</strong></div>
+          </div>
+          <div class="activity-heading"><span>Category breakdown</span><span id="category-count">No report yet</span></div>
+          <div id="category-list" class="category-list"><div class="empty-state">Your categorized totals will appear here after analysis.</div></div>
+          <button id="download" class="download-button" type="button" disabled>Download HTML report <span>&#8595;</span></button>
+        </div>
+      </section>
+      <footer><span>STATEMENT STUDIO</span><span>Runs on WebAssembly</span></footer>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

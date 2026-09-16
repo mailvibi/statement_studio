@@ -1,0 +1,12 @@
+/target/
+/_site/
+
+# Local editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Local test artifacts
+*.log
+*.tmp
