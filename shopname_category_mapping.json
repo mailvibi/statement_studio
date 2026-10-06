@@ -3,7 +3,10 @@
         "Lidl sagt Danke",
         "Tegut Filiale",
         "Rossmann",
-        "IIFOODS.DE"
+        "IIFOODS.DE",
+        "REWE Egelsbach",
+        "ALDI SUED",
+        "DESI Food"
     ],
 
     "Travel" : [
@@ -11,32 +14,52 @@
         "ADAC Geschaeftsstelle"
     ],
 
+
     "Hotel & Food" : [
         "Autobahnrasthaus",
+        "Der Baecker Eifler",
         "Rasthaus",
         "Rasthof",
         "Lieferando.de",
-		"KFC"
+	"KFC",
+	"AutogrillMiddleEastLLC",
+	"S S P EMIRATES LLC",
+	"Schaefer Dein Baecker"
     ],
 
     "Shopping" : [
         "Siemes Schuhcenter",
         "KiK Fil",
         "Kaufhaus Braun",
-        "toom"
+        "toom",
+        "PAYPAL *TEMU",
+        "112 ROFU EGELSB"
     ],
 
-	"Amazon" : [
+    "Amazon" : [
         "AMZN Mktp DE",
-		"AMAZON.DE"
+	"AMAZON.DE",
+	"AMAZON",
+	"AMZN",
+	"Prime Video",
+	"Amazon.de"
 	],
 
     "Car" : [
+        "Reifen Simon"
+    ],
+
+    "Car-Fuel" : [
         "Shell",
-        "Reifen Simon",
+	"Spessart Sued Tankshop",
+	"Aral BAT Spessart"
+    ],
+
+    "Car-Parking" : [
         "PARKGEBUEHREN",
         "Q PARK",
-		"Parkhaus"
+	"Parkhaus",
+	"Contipark"
     ],
 
     "MonthlyDeductions" : [
@@ -44,9 +67,9 @@
         "Lebara Germany"
     ],
 
-	"TV Tax" : [
+    "TV Tax" : [
 		"Rundfunk ARD, ZDF, DRadio"
-	],
+     ],
 
     "Utilities" : [
         "Stadtwerke Langen Gesellschaft"
@@ -54,13 +77,37 @@
 
     "Medical" : [
         "Dr. med. Nina Ewerdwal",
-		"MUENCHSCHE-APOTHEKE"
+		"MUENCHSCHE-APOTHEKE",
+		"Braunsche Apotheke"
     ],
 
+    "Local Travel" : [
+    	"RMV APP",
+    	"PAYPAL *RMV"
+    ],
+    
+    "Club" : [
+    	"TV Langen",
+    	"Turnverein 1862 Langen e.V",
+    	"Johanniter-Unfall-Hilfe e. V.",
+    	"Kerala Samajam "
+    ],
+ 
     "Other" : [
         "CONNFAIR",
         "HAUS DER 1000 UHREN",
         "Greifvogel  und Eulen",
         "Eble Uhren-Park"
-    ]
+    ],
+    "PAJ-Tracking" : [
+    	"PAJ "
+    ],
+    "ETIHADAIR" : [
+    	"ETIHADAIR"
+    ],
+    "JOB-Learning" : [
+    	"HUGGINGFACE",
+    	"ANTHROPIC",
+    	"ANTHROPIC*"
+	]
 }
